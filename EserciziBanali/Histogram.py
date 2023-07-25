@@ -9,7 +9,7 @@
 from random import randint
 
 
-def istogramma(lista):
+def histogram(lista):
     for i in lista:
         print('*' * i)
 
@@ -23,7 +23,7 @@ def main():
     print("\nEcco la lista: ", list_num)
 
     print("\nRappresentazione tramite istogramma:")
-    istogramma(list_num)
+    histogram(list_num)
 
 
 if __name__ == '__main__':
